@@ -1,0 +1,20 @@
+.container-fluid .navbar-contents{
+    display:flex;
+    align-items: center;
+    justify-content: space-between; /* Space between logo and navbar items */
+}
+
+.navbar-collapse{
+display:flex;
+align-items: center;
+flex-direction:row;
+}
+.navbar-nav{
+    display:flex;
+    flex-direction:row;
+    gap:20px;
+    align-items: center;
+}
+.form-control {
+    max-width: 200px; /* Adjust width of search bar */
+  }
