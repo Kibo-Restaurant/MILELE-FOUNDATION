@@ -11,7 +11,7 @@ flex-direction:row;
 }
 .navbar-nav{
     display:flex;
-    flex-direction:row;
+    flex-direction:row;-=
     gap:20px;
     align-items: center;
 }
