@@ -30,6 +30,7 @@ flex-direction:row;
   }
   .search-wrp{
     position:relative;
+    margin-top:40px;
    
   }
   #search-btn{
@@ -49,7 +50,7 @@ flex-direction:row;
   }
   
   .nav-item .dropdown-menu {
-    opacity:0; /* Hide the dropdown by default */
+    display:none; /* Hide the dropdown by default */
     position: absolute; /* Position the dropdown below the parent */
     top: 100%; /* Align dropdown below the parent */
     left: 0; /* Align dropdown with the parent */
@@ -60,7 +61,7 @@ flex-direction:row;
   
   .nav-item:hover .dropdown-menu {
    opacity:1; /* Show the dropdown when hovering over the parent */
-   transition: opacity 0.3s ease-in-out;
+   display:block;
   }
   
   .nav-item a {
@@ -73,6 +74,7 @@ flex-direction:row;
     text-decoration-thickness: 8px;
     transition: text-decoration 0.3s ease-in-out;
     text-underline-offset: 6px; /* Adjust spacing below the text */
+    opacity:1; 
   } 
   .nav-item .dropdown-item:hover{
     text-decoration: none;
@@ -170,7 +172,7 @@ flex-direction:row;
     cursor: pointer;
     overflow: hidden;
     outline: none;
-   
+    display:none;
   }
 
   /* Downward arrow inside the button */
@@ -193,6 +195,16 @@ flex-direction:row;
   }
   .drop:hover::after {
     border-top-color: #fdcf35; /* Change arrow color on hover */
+  }
+  .carousel-placeholder{
+    background-color: #6117e7;
+    width:100%;
+    height: auto;
+    z-index:10;
+    display: none;
+  }
+  .hide{
+    opacity:0;
   }
 
   
@@ -258,7 +270,7 @@ flex-direction:row;
       margin-top: 10px; /* Space between parent and dropdown */
     }
     .nav-item:hover .dropdown-menu,
-    .nav-item:focus-within .dropdown-menu {
+    .nav-item:focus .dropdown-menu {
      display: block; /* Show the dropdown when the parent is hovered or focused */
      color:#6117e7;
     }
@@ -274,6 +286,9 @@ flex-direction:row;
       color:#6117e7;
       transition: color 0.5s ease-in-out;
     } 
+    .drop{
+      display:block;
+    }
    
  
   }
