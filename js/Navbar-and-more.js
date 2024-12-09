@@ -20,11 +20,11 @@ document.addEventListener('DOMContentLoaded', () =>{
           toggler.classList.remove('active');
       }
       //ADJUST TO MAKE CLICK OUTSIDE SEACH INPUT ALSO CLOSES IT --CHANGE AND UNDERSTAND IF PART
-      if (!searchButton.contains(event.target) && !searchInput.contains(event.target) && !closeButton.contains(event.target) ) {
-        searchContainer.classList.remove('active');
-        searchInput.classList.remove('show');
-        closeButton.classList.remove('show');
-      }
+      // if (!searchButton.contains(event.target) && !searchInput.contains(event.target) && !closeButton.contains(event.target) ) {
+      //   searchContainer.classList.remove('active');
+      //   searchInput.classList.remove('show');
+      //   closeButton.classList.remove('show');
+      // }
       
     
     });
