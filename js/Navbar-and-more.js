@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () =>{
         
         //TRANFORMING THE HAMBURGER BUTTON INTO AN X
      const toggler = document.getElementById('custom-toggler');
-     const navbarContent = document.querySelector('.navbar-collapse');
+     const navbarContent = document.querySelector('.custom-navbar');
     //  const navbarContent = document.querySelector('navbar-collapse');
      
      toggler.addEventListener('click', () => {
