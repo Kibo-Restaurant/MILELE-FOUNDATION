@@ -10861,8 +10861,8 @@ textarea.form-control-lg {
   }
 }
 .features-icons {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 .features-icons .features-icons-item {
   max-width: 20rem;
@@ -11261,7 +11261,7 @@ a.donate-link:hover .donate {
   display:flex;
  justify-content: center;
  align-items: center;
- gap:10px;
+ gap:10px;          
 }
 .showcase-text{
   position:relative;
