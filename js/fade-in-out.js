@@ -42,7 +42,7 @@ function initializeFadeCarousel(){
     // Hide the placeholder after 2 seconds
     setTimeout(() => {
         if (placeholder) placeholder.style.display = 'none';
-      }, 2000);
+      }, 3000);
       showSlide(currentIndex);
       setInterval(nextSlide, 5000);
       addManualControls();
