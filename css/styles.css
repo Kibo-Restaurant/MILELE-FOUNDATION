@@ -1602,6 +1602,7 @@ progress {
   .gy-xl-5 {
     --bs-gutter-y: 3rem;
   }
+  
 }
 @media (min-width: 1400px) {
   .col-xxl {
@@ -10860,8 +10861,8 @@ textarea.form-control-lg {
   }
 }
 .features-icons {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 .features-icons .features-icons-item {
   max-width: 20rem;
@@ -10938,7 +10939,7 @@ header.masthead h1, header.masthead .h1 {
 .call-to-action {
   position: relative;
   background-color: #343a40;
-  background: url("../assets/img/buffet2-kibo-restaurant-watamu.jpeg") no-repeat center center;
+  background: url("../assets/img/kids-inclass-milele-vision-foundation.jpg") no-repeat center center;
   background-size: cover;
   padding-top: 7rem;
   padding-bottom: 7rem;
@@ -11103,15 +11104,15 @@ flex-direction:row;
   transform: rotate(-45deg);
   position: relative;
   top: -9.5px;
-  width: 100%;
+  width:100%;
 }
-
-
 .custom-toggler{
   display:flex;
   size:-20%;
   margin-bottom: 1px;
   padding-bottom: 0;
+  /* z-index:1000;
+  display:block; */
 }
 
 @media screen and (max-width: 992px) {
@@ -11119,15 +11120,36 @@ flex-direction:row;
  .button-wrapper{
   display:block;
  }
+ .html-links {
+  width: 100px; /* Adjust width for smaller screens */
+  height: 40px; /* Adjust height for smaller screens */
+  font-size: 14px; /* Reduce font size for better fit */
+  bottom: 1rem; /* Adjust spacing */
+  right: 1rem; /* Adjust spacing */
+}
 
+}
+@media (max-width: 576px) {
+  .html-links {
+    width: 80px; /* Further reduce width for very small screens */
+    height: 35px; /* Further reduce height */
+} 
 }
 
 /* Custom navbar styles */
+.navbar-contents{
+  position:relative;
+}
 .custom-navbar {
   display: flex;
   flex-direction: column;
-  background-color: #f8f9fa; /* Same as Bootstrap light background */
+  background-color: #f8f9fa; 
   padding: 1rem;
+  position:absolute;
+  top:100%;
+  height:50vh;
+  width:100vh;
+  z-index:1000;
 }
 
 .custom-nav {
@@ -11142,61 +11164,19 @@ flex-direction:row;
 
 .custom-nav-link {
   text-decoration: none;
-  color: #212529; /* Bootstrap's default text color */
+  color: #212529; 
   font-weight: 500;
 }
 
 .custom-nav-link:hover {
-  color: #0d6efd; /* Bootstrap primary hover color */
+  color: #6117e7; 
 }
 
 .custom-search {
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
-/* CAROUSEL STYLES*/
-.carousel-container {
-  position: relative;
-  height: 100%; /* Maintain the same height */
-}
 
-.carousel-slide {
-  position: absolute; /* Stack slides on top of each other */
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 0; /* Start with all images invisible */
-  transition: opacity 1s ease-in-out; /* Smooth fade effect */
-}
-
-.carousel-slide img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.carousel-slide.active {
-  opacity: 1; /* Show the active slide */
-  z-index: 1; /* Ensure the active slide is on top */
-}
-
-#carousel-placeholder {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #6117e7; /* Your preferred placeholder color */
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  z-index: 10;
-}
-
-/*END OF CAROUSEL STYLES */
 .row {
   display: flex; /* Make the row a flex container */
   flex-wrap: wrap; /* Allow wrapping for smaller screens */
@@ -11228,14 +11208,323 @@ flex-direction:row;
   font-size: 2.5rem;
   font-weight: 300;
 }
-.milele-theme1{
+#milele-theme1{
   display:flex;
   flex-direction:column;
-  background-color: #6117e7;
-  align-items: stretch;
-}
-.milele-theme2{
-  display:flex;
   background-color: #fdcf35;
-  flex-direction:column;
 }
+
+#milele-theme2{
+  display:flex;
+  background-color: #6117e7;
+  flex-direction:column;
+  color:white;
+}
+@media (min-width:1200px){
+  #milele-theme1{
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+   }
+   #milele-theme2{
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+   }
+}
+
+.donate {
+  background-color: #fdcf35;
+  width: 100px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50%;
+  text-decoration: none; /* Ensure no underline or decoration */
+  color: black; /* Set text color to make it readable */
+  border-radius: 5px; /* Optional: Add rounded corners */
+  font-weight: bold; /* Optional: Bold text */
+}
+
+a.donate-link{
+  text-decoration: none;
+}
+
+a.donate-link:hover .donate {
+  background-color: #6117ef; /* Optional: Change color on hover */
+  color:white;
+  
+}
+
+.socials{
+  display:flex;
+ justify-content: center;
+ align-items: center;
+ gap:10px;
+}
+.showcase-text{
+  position:relative;
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-end; /* Ensure content aligns to the bottom */
+  height: 100%; /* Make it take the full height of its container */
+  padding: 2rem; /* Add padding around the content */
+}
+.html-links{
+  background-color: #fdcf35;
+  width: 100px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none; /* Ensure no underline or decoration */
+  color: black; 
+  border-radius: 5px; 
+  font-weight: bold; 
+  position:absolute;
+  bottom: 2rem; /* Stay at the bottom */
+  right: 2rem; /* Slightly away from the right edge */
+  z-index: 1; /* Ensure it stays on top */
+  transition: all 0.3s ease-in-out; /* Smooth transitions for size adjustments */
+}
+a.goto-links{
+  text-decoration: none;
+}
+
+a.goto-links:hover .html-links, a.goto-links:active .html-links {
+  background-color: #6117ef; /* Optional: Change color on hover */
+  color:white;
+}
+
+.custom-navbar{
+  display:none;
+}
+.custom-navbar.show{
+  display:block;
+
+}
+/*CAROUSEL */
+.carousel {
+  position: relative;
+  max-width: 100%;
+  height:600px;
+  overflow: hidden;
+  margin: 0; 
+  padding: 0; 
+  
+}
+
+.carousel-container {
+  position: relative;
+  height: 100%;
+}
+
+.carousel-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1s ease-in-out; 
+}
+
+
+/* Text content styling */
+.uniform {
+  position: absolute; /* Positioned absolutely within .carousel-slide */
+  bottom: 10%; /* Moves the content towards the bottom */
+  left: 5%; /* Aligns content slightly towards the left */
+  transform: none; /* Removes the previous center positioning */
+  text-align: left; /* Aligns text to the left */
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+  padding: 15px; /* Reduced padding for smaller screens */
+  border-radius: 10px;
+  width: 90%; /* Responsive width */
+  max-width: 400px; /* Prevents the box from being too wide on large screens */
+  z-index: 10; /* Ensures text is above the image */
+  box-sizing: border-box;
+}
+
+.uniform h2 {
+  font-size: 1.5rem; /* Scales the heading */
+  margin: 5px 0;
+}
+
+.uniform p {
+  font-size: 1rem; /* Adjusted for smaller screens */
+  margin: 5px 0;
+}
+
+.uniform .btn {
+  display: inline-block;
+  padding: 8px 15px;
+  color: #fff;
+  background-color: #ffa500;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 8px;
+  font-weight: bold;
+  font-size: 0.9rem; /* Smaller button text for responsiveness */
+}
+
+.uniform .btn:hover {
+  background-color: #ff8000;
+}
+
+/* Responsive adjustments for small screens */
+@media screen and (max-width: 768px) {
+  .uniform {
+    bottom: 5%; /* Adjusts position closer to the bottom */
+    left: 3%; /* Slightly more aligned left */
+    width: 95%; /* Slightly wider to use space on smaller screens */
+    padding: 10px;
+  }
+
+  .uniform h2 {
+    font-size: 1.2rem;
+  }
+
+  .uniform p {
+    font-size: 0.9rem;
+  }
+
+  .uniform .btn {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+  }
+}
+
+
+
+.carousel-slide.active {
+  opacity: 1;
+  z-index: 1;
+}
+
+.carousel-slide img {
+  width: 100vw;
+  height: 100%;
+  object-fit: cover;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+
+#carousel-placeholder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #6117e7;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 10;
+  text-align: center;
+  color:white;
+}
+@media (max-width: 768px) {
+  .prev, .next{
+    padding: 5px;
+  }
+  }
+
+  @media (max-width:479px) {
+  
+ .carousel .carousel-slide, .carousel #carousel-placeholder{
+   min-width:100%;
+   box-sizing:border-box;
+   height: 50vh;
+   margin-bottom:2px;
+ }
+ .carousel{
+  height:50vh;
+  margin-bottom:0;
+}
+
+ }
+
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Placeholder Container */
+.placeholder-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background: linear-gradient(to bottom, #6117e7, #fdcf35); /* Gradient background */
+  color: black; /* Text color */
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Placeholder Content Styling */
+.placeholder-content {
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+  padding: 40px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+}
+
+.placeholder-content h1 {
+  font-size: 2rem;
+  color: #6117e7; /* Purple */
+  margin-bottom: 15px;
+}
+
+.placeholder-content p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+/* Home Button Styling */
+.home-button {
+  background-color: #fdcf35; /* Yellow */
+  color: black; /* Black text */
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.home-button:hover {
+  background-color: #6117e7; /* Purple on hover */
+  color: white; /* White text on hover */
+}
+
+

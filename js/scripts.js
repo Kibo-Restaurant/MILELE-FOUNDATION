@@ -8,38 +8,38 @@
 
 
 
-document.addEventListener('DOMContentLoaded', () =>{
-    function initializeNavbar() {
+// document.addEventListener('DOMContentLoaded', () =>{
+//     function initializeNavbar() {
         
         
-        //TRANFORMING THE HAMBURGER BUTTON INTO AN X
-     const toggler = document.getElementById('custom-toggler');
-     const navbarContent = document.querySelector('.navbar-collapse');
+//         //TRANFORMING THE HAMBURGER BUTTON INTO AN X
+//      const toggler = document.getElementById('custom-toggler');
+//      const navbarContent = document.querySelector('.navbar-collapse');
      
     
      
-     toggler.addEventListener('click', () => {
-       toggler.classList.toggle('active');
-       navbarContent.classList.toggle('show');
-     });
+//      toggler.addEventListener('click', () => {
+//        toggler.classList.toggle('active');
+//        navbarContent.classList.toggle('show');
+//      });
 
    
-    // Collapse the navbar when clicking outside of it
-    window.addEventListener('click', (event) => {
-      // Check if the clicked element is outside the navbar and the toggler
-      if (!navbarContent.contains(event.target) && !toggler.contains(event.target)) {
-          navbarContent.classList.remove('show');
-          toggler.classList.remove('active');
-      }
+//     // Collapse the navbar when clicking outside of it
+//     window.addEventListener('click', (event) => {
+//       // Check if the clicked element is outside the navbar and the toggler
+//       if (!navbarContent.contains(event.target) && !toggler.contains(event.target)) {
+//           navbarContent.classList.remove('show');
+//           toggler.classList.remove('active');
+//       }
    
-    });
-    // Select dropdown buttons and menus
+//     });
+//     // Select dropdown buttons and menus
      
     
-    };
+//     };
     
-     initializeNavbar()
-    });
+//      initializeNavbar()
+//     });
 
 
   
