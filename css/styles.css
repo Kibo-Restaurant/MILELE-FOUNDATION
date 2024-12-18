@@ -11491,20 +11491,42 @@ a.goto-links:hover .html-links, a.goto-links:active .html-links {
 /* Placeholder Content Styling */
 .placeholder-content {
   background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
-  padding: 40px 20px;
+  padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  max-width: 500px;
+  max-width: 90%; /* Adjust to screen size */
+  width: 100%;
 }
 
 .placeholder-content h1 {
-  font-size: 2rem;
+  font-size: 1.8rem; /* Smaller font for mobile */
   color: #6117e7; /* Purple */
   margin-bottom: 15px;
 }
 
 .placeholder-content p {
-  font-size: 1.2rem;
+  font-size: 1rem; /* Adjusted for smaller screens */
+  margin-bottom: 10px;
+}
+
+/* Placeholder Content Styling */
+.placeholder-content {
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 90%; /* Adjust for responsiveness */
+  width: 100%;
+}
+
+.placeholder-content h1 {
+  font-size: 1.8rem; /* Smaller font for smaller screens */
+  color: #6117e7; /* Purple */
+  margin-bottom: 15px;
+}
+
+.placeholder-content p {
+  font-size: 1rem; /* Adjusted for smaller screens */
   margin-bottom: 10px;
 }
 
@@ -11526,5 +11548,122 @@ a.goto-links:hover .html-links, a.goto-links:active .html-links {
   background-color: #6117e7; /* Purple on hover */
   color: white; /* White text on hover */
 }
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .placeholder-content h1 {
+    font-size: 1.5rem; /* Smaller font size for smaller screens */
+  }
+
+  .placeholder-content p {
+    font-size: 0.9rem;
+  }
+
+  .home-button {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+  .banner-text{
+    font-size: 1.5rem; 
+  }
+
+}
+
+@media (max-width: 576px) {
+  .placeholder-content h1 {
+    font-size: 1.2rem; /* Even smaller font size for extra small screens */
+  }
+
+  .placeholder-content p {
+    font-size: 0.8rem;
+  }
+
+  .home-button {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+  }
+  .banner-text{
+    font-size: 1.2rem; 
+  }
+}
+
+
+
+.banner-container{
+  width:100%;
+  height:50vh;
+  position:relative;
+  margin:0;
+  padding:0;
+}
+.banner-container img{
+  width:100%;
+  height:100%;
+  object-fit: cover;
+}
+
+.banner-text{
+  font-size: 3rem; 
+  font-weight: bold;
+  position:absolute;
+  top:50%;
+  align-items: center;
+  justify-content: center;
+  transform:translateY(-50%);
+  text-align: center;
+}
+
+/* General Section Styling */
+.how-to-give {
+  background-color: #6117e7;
+}
+
+.option-card {
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Button Hover Effects */
+.btn-success:hover {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn-warning:hover {
+  background-color: #6117e7;
+  color: black;
+}
+
+/* Form Card Styling */
+.card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: none;
+}
+.form-text{
+ color: #6117e7;
+ font-size:1.5rem;
+}
+#donation-form {
+  min-height: 300px; /* Adjust for desired minimum height */
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-control {
+  width: 100%; /* Ensure it's taking the full container width */
+  padding: 15px; /* More padding to make the fields taller */
+}
+textarea.form-control {
+  padding: 15px;
+  height: 150px; /* For the message field, make it larger */
+  width: 100%;
+}
+
 
 
