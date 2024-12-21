@@ -11759,12 +11759,24 @@ textarea.form-control {
   }
 }
 
+
 /* Class to apply animation */
 .fade-scale-up {
   opacity: 0; /* Start hidden */
   transform: scale(0.8); /* Initial size */
   animation: fade-scale-up 1s ease forwards;
 }
+/* Apply initial blur */
+.lazyload {
+  filter: blur(10px); /* Initial blur */
+  transition: filter 0.5s ease; /* Smooth transition when blur is removed */
+}
+
+/* Remove blur once the image is loaded */
+.lazyload.loaded {
+  filter: blur(0); /* No blur */
+}
+
 
 
 
