@@ -18634,7 +18634,49 @@ color:#000000;
     height:30%;
     width:100%;
   }
-  
+
+  .social-share {
+    display: flex;
+    flex-wrap: wrap; /* Makes it responsive */
+    gap: 10px; /* Adds space between buttons */
+    align-items: center;
+}
+
+.social-share span {
+    font-size: 1rem;
+    margin-right: 10px;
+    white-space: nowrap;
+}
+
+.social-share a {
+    font-size: 1rem; /* Adjusts font size */
+    display: inline-flex;
+    align-items: center;
+    gap: 5px; /* Space between icon and text */
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.social-share a i {
+    font-size: 1.5em;
+}
+
+.social-share a:hover {
+    opacity: 0.8; /* Hover effect */
+}
+
+@media (max-width: 768px) {
+    .social-share {
+        flex-direction: column; /* Stack buttons on smaller screens */
+        align-items: flex-start;
+    }
+
+    .social-share span {
+        margin-bottom: 10px; /* Space below the text */
+    }
+}
+
 
 
 

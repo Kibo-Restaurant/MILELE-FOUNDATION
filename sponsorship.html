@@ -132,13 +132,21 @@
          
         </div>
       </nav>
+      <div class="placeholder-container">
+        <div class="placeholder-content">
+          <h1>🚧 We're Working on This Section 🚧</h1>
+          <p>Please be patient as we improve this page for you.</p>
+          <p>We’ll be live soon!</p>
+          <button class="home-button" onclick="window.location.href='index.html'">Return Home</button>
+        </div>
+      </div>
         
         <!-- Page header with logo and tagline-->
         <header class="py-5 bg-light border-bottom mb-4">
             <div class="container">
                 <div class="text-center my-5">
-                    <h1 class="fw-bolder">Welcome to Blog Home!</h1>
-                    <p class="lead mb-0">A Bootstrap 5 starter layout for your next blog homepage</p>
+                    <h1 class="fw-bolder">Our support programs</h1>
+                    <p class="lead mb-0">Moving one step at a time</p>
                 </div>
             </div>
         </header>
@@ -260,6 +268,69 @@
                 </div>
             </div>
         </div>
+        <section class="how-to-give showcase bg-light py-5">
+          <div class="container">
+            <!-- Section Header -->
+            <div class="text-center mb-5">
+              <h2 class="form-text">How to Give</h2>
+              <p class="lead">
+                Giving is easy and flexible. Choose the option that works best for you. Whether it’s filling out a form, 
+                contacting us directly, or sending a monetary donation, every contribution matters and makes a difference.
+              </p>
+            </div>
+        
+            <!-- Donation Options -->
+            <div class="row text-center mb-4">
+              <div class="col-md-4">
+                <div class="option-card p-3 shadow-sm bg-white rounded">
+                  <h4 class="form-text">Fill Out a Donation Form</h4>
+                  <p>Have something to say or offer? Fill out the form below to let us know. It’s quick, simple, and effective.</p>
+                  
+                  <a href="#donation-form" class="btn btn-warning">Fill the form below</a>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="option-card p-3 shadow-sm bg-white rounded">
+                  <h4 class="text-success">Contact Us on WhatsApp</h4>
+                  <p>Reach out directly via WhatsApp to share what you have or to start a conversation with us.</p>
+                  <a href="https://wa.me/254713294813" class="btn btn-success" target="_blank">Message Us</a>
+
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="option-card p-3 shadow-sm bg-white rounded">
+                  <h4 class="text-warning">Make a Monetary Donation</h4>
+                  <p>Click the Donate Now button to support us financially. Add a message to make it personal!</p>
+                  <a href="donations.html" class="btn btn-warning">Donate Now</a>
+                </div>
+              </div>
+            </div>
+        
+            <!-- Donation Form -->
+            <div id="donation-form" class="row d-flex justify-content-center align-items-center">
+              <div class="col-md-8">
+                <div class="card p-4 shadow-sm">
+                  <h4 class="text-center mb-4 form-text">General Donation Form</h4>
+                  <form action="https://formspree.io/f/example" method="POST">
+                    <div class="mb-3">
+                      <label for="name" class="form-label">Full Name</label>
+                      <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="mb-3">
+                      <label for="email" class="form-label">Email Address</label>
+                      <input type="email" class="form-control" id="email" name="_replyto" placeholder="Enter your email" required>
+                    </div>
+                    <div class="mb-3">
+                      <label for="message" class="form-label">Message</label>
+                      <textarea class="form-control" id="message" name="message" rows="4" placeholder="Tell us what you want to share or say"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
         <!-- Call to Action-->
         <section class="call-to-action text-white text-center" id="signup">
           <div class="container position-relative">
