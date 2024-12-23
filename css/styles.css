@@ -17896,6 +17896,11 @@ flex-direction:row;
   flex-direction:column;
   background-color: #fdcf35;
 }
+.milele-theme1{
+  display:flex;
+  flex-direction:column;
+  background-color: #fdcf35;
+}
 
 #milele-theme2{
   display:flex;
@@ -17903,6 +17908,7 @@ flex-direction:row;
   flex-direction:column;
   color:white;
 }
+
 @media (min-width:1200px){
   #milele-theme1{
     height:100vh;
