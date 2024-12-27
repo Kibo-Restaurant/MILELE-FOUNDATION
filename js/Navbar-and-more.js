@@ -28,6 +28,8 @@ document.addEventListener('DOMContentLoaded', () =>{
       
     
     });
+
+ 
     
     // // OPENING AND CLOSING THE SEARCH INPUT AND CLOSE BUTTON
     // const searchContainer = document.querySelector('.search-container');
