@@ -17896,10 +17896,16 @@ flex-direction:row;
   flex-direction:column;
   background-color: #fdcf35;
 }
-.milele-theme1{
+.milele-theme2{
   display:flex;
   flex-direction:column;
-  background-color: #fdcf35;
+  background-color: #6117e7;
+}
+.milele-theme2{
+  display:flex;
+  flex-direction:column;
+  background-color: #6117e7;
+  color:white;
 }
 
 #milele-theme2{
@@ -17911,12 +17917,12 @@ flex-direction:row;
 
 @media (min-width:1200px){
   #milele-theme1{
-    height:100vh;
+    height:70vh;
     justify-content: center;
     align-items: center;
    }
    #milele-theme2{
-    height:100vh;
+    height:70vh;
     justify-content: center;
     align-items: center;
    }
@@ -19012,7 +19018,52 @@ color:#000000;
       display: block;
     }
   } 
+   /*--------------------------------------------------------------
+# About section Mission-vision
+--------------------------------------------------------------*/
 
+
+  .about-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .about-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .about-section p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: #555;
+  }
+  
+  .about-section .stats {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .about-section .stats div {
+    text-align: center;
+    margin: 15px;
+  }
+  
+  .about-section .stats h3 {
+    font-size: 2.5rem;
+    color: #6117e7;
+    margin-bottom: 10px;
+  }
+  
+  .about-section .stats p {
+    font-size: 1.1rem;
+    color: #666;
+  }
+  
 
       
 
@@ -19081,6 +19132,7 @@ color:#000000;
   font-size: 13px;
   padding-top: 5px;
 }
+
 
 
 
