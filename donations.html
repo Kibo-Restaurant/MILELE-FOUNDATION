@@ -61,25 +61,28 @@
               <li><a href="blog.html">Blog</a></li> -->
               <li class="dropdown"><a href="#"><span>Support a child</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
+                  <li><a class="dropdown-item" href="sponsorship.html">View All Support Programs Here</a></li>
                   <li><a class="dropdown-item" href="uniform.html">Provide Uniforms</a></li>
                           <li><a class="dropdown-item" href="supplies.html">Donate School Books</a></li>
                           <li><a class="dropdown-item" href="fees.html">Pay School Fees</a></li>
                           <li><a class="dropdown-item" href="christmas.html">Give a Christmas Gift</a></li>
                           <li><a class="dropdown-item" href="essentials.html">Fund Other Essentials</a></li>
-                          <li><a class="dropdown-item" href="sponsorship.html">View All Support Programs</a></li>
+                         <li><a class="dropdown-item" href="feed.html">Feeding programs</a></li>
+                         <li><a class="dropdown-item" href="health.html">Health awareness</a></li> 
+                         
                 
                 </ul>
               </li>
               <li class="dropdown"><a href="#"><span>Success Stories</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
-
-                  
+    
+                  <li><a class="dropdown-item" href="success.html">View All Stories</a></li>
                   <li><a class="dropdown-item" href="national.html">Children in National Schools</a></li>
                   <li><a class="dropdown-item" href="youth.html">Youth Overcoming Obstacles</a></li>
                   <li><a class="dropdown-item" href="mothers.html">Empowered Mothers</a></li>
                   <!-- <li><a class="dropdown-item" href="community.html">Building Community Bonds</a></li>
                   <li><a class="dropdown-item" href="train.html">Workshops & Training Impact</a></li> -->
-                  <li><a class="dropdown-item" href="success.html">View All Stories</a></li>
+                  
                 </ul>
               </li>
               <li><a href="contacts.html">Contact</a></li>
@@ -100,7 +103,7 @@
         </header>
           <!--Banner showcasing activity-->
           <section><div class="banner-container container-fluid d-flex justify-content-center align-items-center ">
-            <img src="assets/img/girls-fees-milele-vision-foundation.jpg" class="banner lazyload" >
+            <img src="assets/img/cute-kids-milele-vision-foundation (19).jpg" class="banner lazyload" >
             <div class="banner-text animated go-up">Stepping into a brighter future </div>
           </div>
           </section>
@@ -125,8 +128,10 @@
                   <div class="option-card p-3 shadow-sm bg-white rounded">
                     <img src="assets/img/mpesa-milele-vision-foundation.png" alt="M-Pesa logo" width="150" class="mb-3">
                     <p>Donate via M-Pesa using Paybill 247247 <br> Account number: 934830</p>
-                    <p>Or donate directly via M-Pesa USSD:</p>
-                    <a href="tel:*234#?text=Paybill%20247247%20Account%20934830" class="btn btn-success">Donate via M-Pesa</a>
+                    <p>After donating via M-Pesa, please fill out the donation form below to confirm your donation purpose.</p>
+                    <a href="#donation-form" class="btn btn-success">Donation form</a>
+                    <!-- <p>Or donate directly via M-Pesa USSD:</p>
+                    <a  href="tel:*247%23" class="btn btn-success">Donate via M-Pesa</a> -->
                   </div>
                 </div>
           
@@ -158,56 +163,58 @@
               </div>
             </div>
           </section>
-          
+
+          <!-- Donation Form -->
+          <div id="" class="row d-flex justify-content-center align-items-center">
+            <div class="col-md-8">
+              <div class="card p-4 shadow-sm">
+                <h4 class="text-center mb-4 form-text">Specify your M-Pesa donation purpose</h4>
+                <form id="donation-form">
+                  <div class="mb-3">
+                    <label for="name" class="form-label">Full Name</label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Email Address</label>
+                    <input type="email" class="form-control" id="email" name="_replyto" placeholder="Enter your email" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" name="message" rows="4" placeholder="Tell us what you want to share or say"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                </form>
+              </div>
+            </div>
+          </div>
           
          
 
         
        
-        <!-- Call to Action-->
+        <!-- Call to Action -->
         <section class="call-to-action text-white text-center" id="signup">
-            <div class="container position-relative">
-                <div class="row justify-content-center">
-                    <div class="col-xl-6">
-                        <h2 class="mb-4">Want to stay updated?  Sign up for our newsletter today</h2>
-                        <!-- Signup form-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- * * SB Forms Contact Form * *-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- This form is pre-integrated with SB Forms.-->
-                        <!-- To make this form functional, sign up at-->
-                        <!-- https://startbootstrap.com/solution/contact-forms-->
-                        <!-- to get an API token!-->
-                        <form class="form-subscribe" id="contactFormFooter" data-sb-form-api-token="API_TOKEN">
-                            <!-- Email address input-->
-                            <div class="row">
-                                <div class="col">
-                                    <input class="form-control form-control-lg" id="emailAddressBelow" type="email" placeholder="Email Address" data-sb-validations="required,email" />
-                                    <div class="invalid-feedback text-white" data-sb-feedback="emailAddressBelow:required">Email Address is required.</div>
-                                    <div class="invalid-feedback text-white" data-sb-feedback="emailAddressBelow:email">Email Address Email is not valid.</div>
-                                </div>
-                                <div class="col-auto"><button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button></div>
-                            </div>
-                            <!-- Submit success message-->
-                            <!---->
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted-->
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3">
-                                    <div class="fw-bolder">Form submission successful!</div>
-                                    <p>To activate this form, sign up at</p>
-                                    <a class="text-white" href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                                </div>
-                            </div>
-                            <!-- Submit error message-->
-                            <!---->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form-->
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                        </form>
-                    </div>
-                </div>
+          <div class="container position-relative">
+            <div class="row justify-content-center">
+              <div class="col-xl-6">
+                <h2 class="mb-4">Want to stay updated? Sign up for our newsletter today</h2>
+                <form class="subscribe-container mb-2">
+                  <div class="d-flex flex-wrap align-items-center">
+                    <input 
+                      type="email" 
+                      name="email" 
+                      placeholder="Enter your email" 
+                      required 
+                      class="form-control me-2 mb-2 mb-md-0"
+                    >
+                    <button type="submit" class="btn custom-btn">
+                      Submit
+                    </button>
+                  </div>
+                </form>
+              </div>
             </div>
+          </div>
         </section>
         <!-- Footer-->
         <footer class="footer bg-light footer-image">
@@ -254,16 +261,9 @@
       <script src="js/Navbar-and-more.js"></script>
       <script src="js/observer.js"></script>
       <script src="js/lazyobserving.js"></script>
-
-
-        <!-- <script src="js/carousel.js"></script> -->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-        <!--EMAIL JS OPTION 2 OF SUBMITTING-->
-        <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.6.4/dist/email.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+      <script src="js/email.js"></script>
+      <script src="js/newsletter.js"></script>
     </body>
 </html>
 

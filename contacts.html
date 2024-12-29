@@ -61,25 +61,28 @@
         <li><a href="blog.html">Blog</a></li> -->
         <li class="dropdown"><a href="#"><span>Support a child</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
           <ul>
+            <li><a class="dropdown-item" href="sponsorship.html">View All Support Programs Here</a></li>
             <li><a class="dropdown-item" href="uniform.html">Provide Uniforms</a></li>
                     <li><a class="dropdown-item" href="supplies.html">Donate School Books</a></li>
                     <li><a class="dropdown-item" href="fees.html">Pay School Fees</a></li>
                     <li><a class="dropdown-item" href="christmas.html">Give a Christmas Gift</a></li>
                     <li><a class="dropdown-item" href="essentials.html">Fund Other Essentials</a></li>
-                    <li><a class="dropdown-item" href="sponsorship.html">View All Support Programs</a></li>
+                   <li><a class="dropdown-item" href="feed.html">Feeding programs</a></li>
+                   <li><a class="dropdown-item" href="health.html">Health awareness</a></li> 
+                   
           
           </ul>
         </li>
         <li class="dropdown"><a href="#"><span>Success Stories</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
           <ul>
 
-            
+            <li><a class="dropdown-item" href="success.html">View All Stories</a></li>
             <li><a class="dropdown-item" href="national.html">Children in National Schools</a></li>
             <li><a class="dropdown-item" href="youth.html">Youth Overcoming Obstacles</a></li>
             <li><a class="dropdown-item" href="mothers.html">Empowered Mothers</a></li>
             <!-- <li><a class="dropdown-item" href="community.html">Building Community Bonds</a></li>
             <li><a class="dropdown-item" href="train.html">Workshops & Training Impact</a></li> -->
-            <li><a class="dropdown-item" href="success.html">View All Stories</a></li>
+            
           </ul>
         </li>
         <li><a href="contacts.html">Contact</a></li>
@@ -152,26 +155,26 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22514.599275423814!2d39.622326529400695!3d-4.008815291963916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x673f60b9efb6320b%3A0x7df7385689a2b5c9!2sMilele%20Vision!5e0!3m2!1sen!2ske!4v1735220573825!5m2!1sen!2ske" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
               </div>
 
-              <!-- Contact Form -->
-              <form action="https://your-emailjs-endpoint" method="POST" class="php-email-form d-flex flex-column align-items-center">
+              <!-- Contact Form
+              <form class="php-email-form d-flex flex-column align-items-center " id="contacting-form">
                 <div class="row w-100">
                   <div class="col-12 mb-3">
-                    <input type="text" name="name" class="form-control w-75" placeholder="Your Name" required>
+                    <input type="text"  id="name"  name="name" class="form-control w-75" placeholder="Your Name" required>
                   </div>
                   <div class="col-12 mb-3">
-                    <input type="email" name="email" class="form-control w-75" placeholder="Your Email" required>
+                    <input type="email" id="email" name="email" class="form-control w-75" placeholder="Your Email" required>
                   </div>
                   <div class="col-12 mb-3">
-                    <input type="text" name="subject" class="form-control w-75" placeholder="Subject" required>
+                    <input type="text"  id="subject"name="subject" class="form-control w-75" placeholder="Subject" required>
                   </div>
                   <div class="col-12 mb-3">
-                    <textarea name="message" class="form-control w-75" rows="6" placeholder="Your Message" required></textarea>
+                    <textarea name="message" id="mesaage" class="form-control w-75" rows="6" placeholder="Your Message" required></textarea>
                   </div>
                   <div class="col-12 text-center">
                     <button type="submit" class="btn btn-primary">Send Message</button>
                   </div>
                 </div>
-              </form>
+              </form> -->
               
             </div>
           </div>
@@ -179,51 +182,30 @@
       </section>
 
     
-  <!-- Call to Action-->
-  <section class="call-to-action text-white text-center" id="signup">
-    <div class="container position-relative">
-        <div class="row justify-content-center">
-            <div class="col-xl-6">
-                <h2 class="mb-4">Want to stay updated?  Sign up for our newsletter today</h2>
-                <!-- Signup form-->
-                <!-- * * * * * * * * * * * * * * *-->
-                <!-- * * SB Forms Contact Form * *-->
-                <!-- * * * * * * * * * * * * * * *-->
-                <!-- This form is pre-integrated with SB Forms.-->
-                <!-- To make this form functional, sign up at-->
-                <!-- https://startbootstrap.com/solution/contact-forms-->
-                <!-- to get an API token!-->
-                <form class="form-subscribe" id="contactFormFooter" data-sb-form-api-token="API_TOKEN">
-                    <!-- Email address input-->
-                    <div class="row">
-                        <div class="col">
-                            <input class="form-control form-control-lg" id="emailAddressBelow" type="email" placeholder="Email Address" data-sb-validations="required,email" />
-                            <div class="invalid-feedback text-white" data-sb-feedback="emailAddressBelow:required">Email Address is required.</div>
-                            <div class="invalid-feedback text-white" data-sb-feedback="emailAddressBelow:email">Email Address Email is not valid.</div>
-                        </div>
-                        <div class="col-auto"><button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button></div>
-                    </div>
-                    <!-- Submit success message-->
-                    <!---->
-                    <!-- This is what your users will see when the form-->
-                    <!-- has successfully submitted-->
-                    <div class="d-none" id="submitSuccessMessage">
-                        <div class="text-center mb-3">
-                            <div class="fw-bolder">Form submission successful!</div>
-                            <p>To activate this form, sign up at</p>
-                            <a class="text-white" href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                        </div>
-                    </div>
-                    <!-- Submit error message-->
-                    <!---->
-                    <!-- This is what your users will see when there is-->
-                    <!-- an error submitting the form-->
-                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                </form>
-            </div>
-        </div>
-    </div>
-</section>
+            <!-- Call to Action -->
+            <section class="call-to-action text-white text-center" id="signup">
+              <div class="container position-relative">
+                <div class="row justify-content-center">
+                  <div class="col-xl-6">
+                    <h2 class="mb-4">Want to stay updated? Sign up for our newsletter today</h2>
+                    <form class="subscribe-container mb-2">
+                      <div class="d-flex flex-wrap align-items-center">
+                        <input 
+                          type="email" 
+                          name="email" 
+                          placeholder="Enter your email" 
+                          required 
+                          class="form-control me-2 mb-2 mb-md-0"
+                        >
+                        <button type="submit" class="btn custom-btn">
+                          Submit
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </section>
 <!-- Footer-->
 <footer class="footer bg-light footer-image">
   <div class="container ">
@@ -269,15 +251,10 @@
   <script src="js/Navbar-and-more.js"></script>
   <script src="js/observer.js"></script>
   <script src="js/lazyobserving.js"></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script src="js/newsletter.js"></script>
 
 
-  <!-- <script src="js/carousel.js"></script> -->
-  <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-  <!-- * *                               SB Forms JS                               * *-->
-  <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-  <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-  <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-  <!--EMAIL JS OPTION 2 OF SUBMITTING-->
-  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.6.4/dist/email.min.js"></script>
 </body>
 </html>

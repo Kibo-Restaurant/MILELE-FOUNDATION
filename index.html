@@ -279,50 +279,44 @@
                   </div>
               </div>
           </section>
-          <!-- Call to Action-->
-          <section class="call-to-action text-white text-center" id="signup">
+          
+          <!-- <section class="call-to-action text-white text-center " id="signup">
               <div class="container position-relative">
                   <div class="row justify-content-center">
                       <div class="col-xl-6">
                           <h2 class="mb-4">Want to stay updated?  Sign up for our newsletter today</h2>
-                          <!-- Signup form-->
-                          <!-- * * * * * * * * * * * * * * *-->
-                          <!-- * * SB Forms Contact Form * *-->
-                          <!-- * * * * * * * * * * * * * * *-->
-                          <!-- This form is pre-integrated with SB Forms.-->
-                          <!-- To make this form functional, sign up at-->
-                          <!-- https://startbootstrap.com/solution/contact-forms-->
-                          <!-- to get an API token!-->
-                          <form class="form-subscribe" id="contactFormFooter" data-sb-form-api-token="API_TOKEN">
-                              <!-- Email address input-->
-                              <div class="row">
-                                  <div class="col">
-                                      <input class="form-control form-control-lg" id="emailAddressBelow" type="email" placeholder="Email Address" data-sb-validations="required,email" />
-                                      <div class="invalid-feedback text-white" data-sb-feedback="emailAddressBelow:required">Email Address is required.</div>
-                                      <div class="invalid-feedback text-white" data-sb-feedback="emailAddressBelow:email">Email Address Email is not valid.</div>
-                                  </div>
-                                  <div class="col-auto"><button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button></div>
-                              </div>
-                              <!-- Submit success message-->
-                              <!---->
-                              <!-- This is what your users will see when the form-->
-                              <!-- has successfully submitted-->
-                              <div class="d-none" id="submitSuccessMessage">
-                                  <div class="text-center mb-3">
-                                      <div class="fw-bolder">Form submission successful!</div>
-                                      <p>To activate this form, sign up at</p>
-                                      <a class="text-white" href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                                  </div>
-                              </div>
-                              <!-- Submit error message-->
-                              <!---->
-                              <!-- This is what your users will see when there is-->
-                              <!-- an error submitting the form-->
-                              <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                          
+                          <form class="subscribe-container mb-2">
+                            <input type="email" name="email" placeholder="Enter your email" required>
+                            <button type="submit"><p>Submit</p></button>
                           </form>
                       </div>
                   </div>
               </div>
+          </section> -->
+          <!-- Call to Action -->
+          <section class="call-to-action text-white text-center" id="signup">
+            <div class="container position-relative">
+              <div class="row justify-content-center">
+                <div class="col-xl-6">
+                  <h2 class="mb-4">Want to stay updated? Sign up for our newsletter today</h2>
+                  <form class="subscribe-container mb-2">
+                    <div class="d-flex flex-wrap align-items-center">
+                      <input 
+                        type="email" 
+                        name="email" 
+                        placeholder="Enter your email" 
+                        required 
+                        class="form-control me-2 mb-2 mb-md-0"
+                      >
+                      <button type="submit" class="btn custom-btn">
+                        Submit
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
           </section>
           
           <!-- Footer-->
@@ -403,16 +397,13 @@
   <!-- <script src="js/Navbar-and-more.js"></script> -->
   <script src="js/observer.js"></script>
   <script src="js/lazyobserving.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script src="js/newsletter.js"></script>
 
 
-  <!-- <script src="js/carousel.js"></script> -->
-  <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-  <!-- * *                               SB Forms JS                               * *-->
-  <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-  <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-  <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-  <!--EMAIL JS OPTION 2 OF SUBMITTING-->
-  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.6.4/dist/email.min.js"></script>
+
+ 
+  
 
 </body>
 

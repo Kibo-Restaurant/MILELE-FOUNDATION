@@ -441,7 +441,7 @@ legend + * {
 
 [type=search] {
   outline-offset: -2px;
-  -webkit-appearance: textfield;
+  /* -webkit-appearance: textfield; */
 }
 
 /* rtl:raw:
@@ -488,6 +488,11 @@ progress {
 
 .lead {
   font-size: 1.25rem;
+  font-weight: 300;
+}
+/* Dynamic font sizing for larger screens */
+.lead {
+  font-size: clamp(1.25rem, 1.5vw, 1.75rem); /* Dynamically adjusts based on viewport width */
   font-weight: 300;
 }
 
@@ -10916,6 +10921,7 @@ header.masthead h1, header.masthead .h1 {
   width:100%;
   height:100%;
   object-fit:cover;
+  min-height: 100%; /* Ensure it takes the full height */
 }
 
 @media (min-width: 768px) {
@@ -17917,12 +17923,12 @@ flex-direction:row;
 
 @media (min-width:1200px){
   #milele-theme1{
-    height:70vh;
+    height:100vh;
     justify-content: center;
     align-items: center;
    }
    #milele-theme2{
-    height:70vh;
+    height:100vh;
     justify-content: center;
     align-items: center;
    }
@@ -18326,6 +18332,7 @@ a.goto-links:hover .html-links, a.goto-links:active .html-links {
 .btn-success:hover {
   background-color: #28a745;
   color: white;
+
 }
 
 .btn-warning:hover {
@@ -18579,6 +18586,13 @@ textarea.form-control {
   padding: 20px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
+}
+.donation-section .option-card {
+  display: flex;
+  flex-direction: column; /* Stack the content vertically */
+  justify-content: space-between; /* Ensure proper spacing between content */
+  height: 100%; /* Makes all cards the same height */
+  min-height: 100%; /* Prevents shrinking */
 }
 
 .donate-form-container h4 {
@@ -19064,7 +19078,68 @@ color:#000000;
     font-size: 1.1rem;
     color: #666;
   }
-  
+  /*--------------------------------------------------------------
+# subscribe container
+--------------------------------------------------------------*/
+/* Input Field Styling */
+.subscribe-container input[type="email"] {
+  font-size: 1.2rem;
+  padding: 12px 15px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  width: 100%; /* Full width for small screens */
+  flex-grow: 1; /* Expands in available space */
+}
+
+/* Submit Button Styling */
+.subscribe-container button {
+  font-size: 1.2rem;
+  padding: 12px 25px;
+  border-radius: 5px;
+  border: none;
+  background-color: #fdcf35;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  white-space: nowrap; /* Prevents text wrapping */
+}
+
+/* Hover and Active State for Button */
+.subscribe-container button:hover,
+.subscribe-container button:active {
+  background-color: #6117ef;
+  color: white;
+}
+
+/* Flex Layout for Form */
+.subscribe-container .d-flex {
+  gap: 10px; /* Space between input and button */
+}
+
+/* Responsive Styling */
+@media (min-width: 768px) {
+  .subscribe-container input[type="email"] {
+    width: auto; /* Returns to auto width on larger screens */
+  }}
+
+.programs{
+  background: url("../assets/img/look-milele-vision-foundation.jpg") no-repeat center center;
+  background-size: cover;
+  color:white;
+}
+.success{
+  background: url("../assets/img/success-milele-vision-foundation\ \(12\).jpg") no-repeat center center;
+  background-size: cover;
+  color:white;
+}
+.more{
+  background-color: #6117e7;
+}
+
+
+
+
+
 
       
 
