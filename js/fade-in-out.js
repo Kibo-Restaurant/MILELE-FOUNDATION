@@ -39,7 +39,7 @@ function initializeFadeCarousel(){
         }
 
     }
-    // Hide the placeholder after 2 seconds
+    // Hide the placeholder after 3 seconds
     setTimeout(() => {
         if (placeholder) placeholder.style.display = 'none';
       }, 3000);
@@ -49,3 +49,5 @@ function initializeFadeCarousel(){
       
   
   } initializeFadeCarousel();
+
+

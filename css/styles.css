@@ -17878,6 +17878,7 @@ flex-direction:row;
   object-fit:cover;
   width: 100%;
   height: 100%; /* Ensure the tiles stretch to the same height */
+  padding:2px;
 }
 .image-wrapper img {
   width: 100%; /* Makes the image span the full width of the parent */
@@ -18005,16 +18006,16 @@ a.goto-links:hover .html-links, a.goto-links:active .html-links {
   display:block;
 
 }
-/*CAROUSEL */
+/* CAROUSEL */
 .carousel {
   position: relative;
   max-width: 100%;
-  height:600px;
+  height:100vh;
   overflow: hidden;
   margin: 0; 
   padding: 0; 
-  
 }
+
 
 .carousel-container {
   position: relative;
@@ -18030,6 +18031,12 @@ a.goto-links:hover .html-links, a.goto-links:active .html-links {
   opacity: 0;
   transition: opacity 1s ease-in-out; 
 }
+.carousel-slide img{
+  width: 100%;
+  height: 100%;
+}
+
+
 
 
 /* Text content styling */
@@ -18152,6 +18159,12 @@ a.goto-links:hover .html-links, a.goto-links:active .html-links {
   .prev, .next{
     padding: 5px;
   }
+  .carousel{
+    height:50vh;
+    margin-bottom:0;
+    width:100%;
+  }
+  
   }
 
   @media (max-width:479px) {
@@ -18162,10 +18175,7 @@ a.goto-links:hover .html-links, a.goto-links:active .html-links {
    height: 50vh;
    margin-bottom:2px;
  }
- .carousel{
-  height:50vh;
-  margin-bottom:0;
-}
+
 
  }
 
@@ -18297,6 +18307,7 @@ a.goto-links:hover .html-links, a.goto-links:active .html-links {
   position:relative;
   margin:0;
   padding:0;
+  margin-bottom:5px;
 }
 .banner-container img{
   width:100%;
