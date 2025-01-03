@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
             if(entry.isIntersecting){
                 const img = entry.target;
                 const highResSrc = img.getAttribute('src');
+                img.setAttribute('src', highResSrc); // Set the actual image source
 
                 img.onload = () => {
                     img.classList.add('loaded');

@@ -379,12 +379,12 @@ select:disabled {
   display: none !important;
 }
 
-button,
+/* button,
 [type=button],
 [type=reset],
 [type=submit] {
   -webkit-appearance: button;
-}
+} */
 button:not(:disabled),
 [type=button]:not(:disabled),
 [type=reset]:not(:disabled),
@@ -460,10 +460,10 @@ legend + * {
   padding: 0;
 }
 
-::file-selector-button {
+/* ::file-selector-button {
   font: inherit;
   -webkit-appearance: button;
-}
+} */
 
 output {
   display: inline-block;
@@ -928,7 +928,7 @@ progress {
 .g-5,
 .gy-5 {
   --bs-gutter-y: 3rem;
-} }
+} 
 
 
 @media (min-width: 576px) {
@@ -17878,7 +17878,7 @@ flex-direction:row;
   object-fit:cover;
   width: 100%;
   height: 100%; /* Ensure the tiles stretch to the same height */
-  padding:2px;
+  
 }
 .image-wrapper img {
   width: 100%; /* Makes the image span the full width of the parent */
@@ -17891,7 +17891,8 @@ flex-direction:row;
   display: flex; 
   flex-direction: column; 
   align-items: center; 
-  justify-content: center;
+  justify-content: space-between;
+  padding:2px;
 }
 
 .big-text{
