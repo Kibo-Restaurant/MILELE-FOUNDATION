@@ -1,0 +1,175 @@
+{
+    "sections": [
+      {
+        "page": "uniform.html",
+        "banner": {
+          "image": "assets/img/uniforms-milele-vision-foundation.jpg",
+          "text": "Creating a Sense of Belonging"
+        },
+        "showcases": [
+          {
+            "title": "Dress for Success (Sare za Shule)",
+            "description": "In Swahili, 'Sare za Shule' means more than just uniforms—it symbolizes belonging. Unfortunately, some children feel excluded in school because their families can’t afford uniforms. Together, we can ensure no child feels left out.",
+            "image": "assets/img/girls-in-uniform-milele-vision-foundation.jpg"
+          },
+          {
+            "title": "Empower with Pride",
+            "description": "A school uniform does more than clothe a child—it builds confidence, fosters inclusion, and allows them to focus on what matters most: learning. By giving a uniform, you’re giving a child the opportunity to walk into school with pride and hope for a brighter future.",
+            "image": "assets/img/clothe-line-smile-milele-vision-foundation.jpg"
+          }
+        ]
+      },
+      {
+        "page": "supplies.html",
+        "banner": {
+          "image": "assets/img/welcome-to-class-milele-vision-foundation.jpg",
+          "text": "Inspire Knowledge, Shape Futures"
+        },
+        "showcases": [
+          {
+            "title": "Equip Students with Books and Supplies",
+            "description": "Imagine trying to study without books, relying only on your teacher’s words. Many children in public schools face this reality daily. They need textbooks, exercise books, storybooks, dictionaries, and encyclopedias to succeed.",
+            "image": "assets/img/enjoy-my-books-milele-vision-foundation.jpg"
+          },
+          {
+            "title": "Empowering Futures Across Communities",
+            "description": "A small contribution of school supplies transforms education into an achievable dream. By providing notebooks, pencils, and textbooks, you empower children across communities to learn, grow, and build brighter futures.",
+            "image": "assets/img/i-love-maths-milele-vision-foundation.jpg"
+          }
+        ]
+      },
+      {
+        "page": "fees.html",
+        "banner": {
+          "image": "assets/img/girls-fees-milele-vision-foundation.jpg",
+          "text": "Stepping into a Brighter Future"
+        },
+        "showcases": [
+          {
+            "title": "Sponsor a Child's Education",
+            "description": "For some children, the school doors remain closed because they cannot afford the fees. Your support can keep those doors open.",
+            "image": "assets/img/school-fees-milele-vision-foundation.jpg"
+          },
+          {
+            "title": "Unlock Opportunities",
+            "description": "By paying school fees, you’re giving children the chance to learn, grow, and dream. Education is the key to breaking the cycle of poverty.",
+            "image": "assets/img/kids-fees-milele-vision-foundation.jpg"
+          }
+        ]
+      },
+      {
+        "page": "christmas.html",
+        "banner": {
+          "image": "assets/img/christmas-milele-vision-foundation.jpg",
+          "text": "Share the Joy of the Season!"
+        },
+        "showcases": [
+          {
+            "title": "Be a Santa This Christmas",
+            "description": "Christmas is magical for children, and your gift can make it unforgettable. Whether it’s toys, clothes, or a simple box of candy, it all brings priceless smiles.",
+            "image": "assets/img/christmas3-milele-vision-foundation.jpg"
+          },
+          {
+            "title": "Bring Hope and Joy",
+            "description": "Every thoughtful gift you give is a message of hope for a brighter tomorrow. Together, we can create unforgettable moments and nurture dreams.",
+            "image": "assets/img/christmas2-milele-vision-foundation.jpg"
+          }
+        ]
+      },
+      {
+        "page": "essential.html",
+        "banner": {
+          "image": "assets/img/essentials3-milele-vision-foundation.jpg",
+          "text": "Igniting Hope, Inspiring Futures"
+        },
+        "showcases": [
+          {
+            "title": "More Than Just Essentials",
+            "description": "Growing up amidst challenges, children need more than just supplies. They need toys to spark joy, clothes for comfort, and moments of beauty to inspire hope.",
+            "image": "assets/img/essentails-milele-vision-foundation.jpg"
+          },
+          {
+            "title": "Be the Light They Need",
+            "description": "Beyond materials, children need mentorship, encouragement, and safe spaces to grow. By volunteering, you can nurture their dreams and help them thrive.",
+            "image": "assets/img/vounteer-milele-vision-foundation.jpg"
+          }
+        ]
+      },
+      {
+        "page": "feed.html",
+        "showcases": [
+          {
+            "title": "Empowering Communities Through Health",
+            "description": "At Milele Vision Foundation, we believe that good health is the foundation for a thriving community. We organize free medical checkups for children, women, and families in need.",
+            "image": "assets/img/heath1-milele-vision-foundation.jpg"
+          },
+          {
+            "title": "Bridging Gaps, Changing Lives",
+            "description": "In underserved communities, access to healthcare is a challenge. At Milele, we bridge this gap, bringing medical experts closer to those in need.",
+            "image": "assets/img/heath2-milele-vision-foundation.jpg"
+          }
+        ]
+      },
+      {
+        "page": "health.html",
+        "title": "Empowering Communities Through Health",
+        "keywords": ["health", "medical checkups", "community health", "screenings", "consultations", "preventive care"],
+        "content": "At Milele Vision Foundation, we believe that good health is the foundation for a thriving community. Through partnerships with health facilities, medical experts, and well-wishers, we organize free medical checkups for children, women, and families in need. These events provide access to vital health services, such as screenings and consultations.",
+        "pageSections": [
+          {
+            "heading": "Empowering Communities Through Health",
+            "description": "At Milele Vision Foundation, we believe that good health is the foundation for a thriving community. Through partnerships with health facilities, medical experts, and well-wishers, we organize free medical checkups for children, women, and families in need.",
+            "image": "assets/img/heath1-milele-vision-foundation (1).jpg",
+            "alt": "Child getting a medical checkup"
+          },
+          {
+            "heading": "Bridging Gaps, Changing Lives",
+            "description": "In many underserved communities, access to healthcare remains a challenge. The journey to a health center can be long, expensive, and daunting for families struggling to make ends meet. At Milele, we step in to bridge this gap, bringing medical experts closer to the people who need them most.",
+            "image": "assets/img/heath2-milele-vision-foundation.jpg",
+            "alt": "Happy child attending school"
+          }
+        ]
+      },
+      {
+        "page": "youth.html",
+        "title": "A Ray of Hope for Coastal Youth",
+        "keywords": ["youth", "coastal youth", "sports", "creativity", "empowerment", "football", "dance", "acrobatics"],
+        "content": "In Mombasa's coastal region, many young people face challenges like unemployment and the lure of harmful habits. Yet, with the right support, these obstacles can be turned into stepping stones toward brighter futures.",
+        "pageSections": [
+          {
+            "heading": "A Ray of Hope for Coastal Youth",
+            "description": "In Mombasa's coastal region, many young people face challenges like unemployment and the lure of harmful habits. Yet, with the right support, these obstacles can be turned into stepping stones toward brighter futures.",
+            "image": "assets/img/acrobatic-youth-milele-vision-foundation.jpg",
+            "alt": "Youth participating in acrobatics"
+          },
+          {
+            "heading": "Fueling Dreams Through Talent and Teamwork",
+            "description": "Milele Vision Foundation is unlocking potential through sports and creativity. By sponsoring football teams, organizing tournaments, and supporting talents in dance and acrobatics, we empower youth to channel their energy into passion and purpose.",
+            "image": "assets/img/football-youth-milele-vision-foundation.jpg",
+            "alt": "Football players from Milele Vision Foundation"
+          }
+        ]
+      },
+      {
+        "page": "national.html",
+        "title": "A Dream Beyond Reach: Abdi's Journey",
+        "keywords": ["abdi's story", "education", "national school", "scholarship", "Kenya", "Mombasa", "dreams", "education empowerment"],
+        "content": "Abdi, a bright boy from a humble family in Mombasa, faced numerous challenges to achieve his dream of attending a national secondary school. With the support of Milele Vision Foundation, Abdi overcame these hurdles and excelled, earning a spot at Maranda National School, where he became the top Kiswahili student in Kenya. Abdi's story inspires us to empower more children like him, providing them with opportunities to achieve greatness.",
+        "pageSections": [
+          {
+            "heading": "A Dream Beyond Reach",
+            "description": "In Kenya, attending a National secondary school is a prestigious milestone. For Abdi, a bright boy from a humble family in Mombasa, this dream seemed impossible. His mother sold food on the streets, and his father worked as a fisherman. Frequent fee arrears often kept him out of class, threatening his education.",
+            "image": "assets/img/dark-times-for-abdi-milele-vision-foundation.jpg",
+            "alt": "Child studying with hope"
+          },
+          {
+            "heading": "A Journey to Excellence",
+            "description": "With Milele Vision Foundation's support, Abdi overcame the odds and stayed in school. His hard work earned him a spot at Maranda National School, where he became Kenya's top Kiswahili student. Now, he dreams of becoming a celebrated author like Wallah bin Wallah. Together, we can empower more children like Abdi to achieve greatness.",
+            "image": "assets/img/dream-come-truemilele-vision-foundation.jpg",
+            "alt": "Happy child attending school"
+          }
+        ]
+      }
+    ]
+  }
+  
