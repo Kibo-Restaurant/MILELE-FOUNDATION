@@ -48,7 +48,7 @@
     <div class="container-fluid container-xxl position-relative d-flex align-items-center justify-content-between">
     <div class="d-inline-block">
       <a class="navbar-brand" href="index.html">
-      <img class="lazyload"  src="assets/img/logo-rectangle-milele vision foundation.png.png" alt="logo-milele-vision-foundation" >
+      <img class="lazyload slow-load" src="assets/img/blur-logo-rectangle-milele vision foundation.png.jpg" data-src="assets/img/logo-rectangle-milele vision foundation.png.png" alt="logo-milele-vision-foundation" >
       </a>
     </div>
     <nav id="navmenu" class="navmenu">
@@ -120,7 +120,7 @@
                 <div class="col-lg-8">
                     <!-- Featured blog post-->
                     <div class="card mb-4">
-                        <a href="#!"><img class="card-img-top" src="assets/img/young-ladies-milele-vision-foundation.jpg" alt="..." /></a>
+                        <a href="#!"><img class="card-img-top lazyload slow-load" data-src="assets/img/young-ladies-milele-vision-foundation.jpg" alt="..."  src="assets/img/blur-young-ladies-milele-vision-foundation.jpg"/></a>
                         <div class="card-body">
                             <div class="small text-muted">January 1, 2024</div>
                             <h2 class="card-title">uniform campaign</h2>
@@ -134,7 +134,7 @@
                         <div class="col-lg-6">
                             <!-- Blog post-->
                             <div class="card mb-4">
-                                <a href="#!"><img class="card-img-top" src="assets/img/share-books-milele-vision-foundation.jpg" alt="..." /></a>
+                                <a href="#!"><img class="card-img-top lazyload slow-load" data-src="assets/img/share-books-milele-vision-foundation.jpg" alt="children and book" src="assets/img/blur-share-books-milele-vision-foundation.jpg" /></a>
                                 <div class="card-body">
                                     <div class="small text-muted">January 1, 2024</div>
                                     <h2 class="card-title h4">Donate books</h2>
@@ -144,7 +144,7 @@
                             </div>
                             <!-- Blog post-->
                             <div class="card mb-4">
-                                <a href="#!"><img class="card-img-top" src="assets/img/fees-need-milele-vision-foundation (17).jpg" alt="..." /></a>
+                                <a href="#!"><img class="card-img-top lazyload slow-load" data-src="assets/img/fees-need-milele-vision-foundation (17).jpg" alt="fees for child" src="assets/img/blur-fees-need-milele-vision-foundation (17).jpg" /></a>
                                 <div class="card-body">
                                     <div class="small text-muted">January 1, 2024</div>
                                     <h2 class="card-title h4">Sponsor education</h2>
@@ -156,7 +156,7 @@
                         <div class="col-lg-6">
                             <!-- Blog post-->
                             <div class="card mb-4">
-                                <a href="#!"><img class="card-img-top" src="assets/img/hungry-minds-milele-vision-foundation.jpg" alt="..." /></a>
+                                <a href="#!"><img class="card-img-top lazyload slow-load" data-src="assets/img/hungry-minds-milele-vision-foundation.jpg" alt="child showing food is life for all" src="assets/img/blur-hungry-minds-milele-vision-foundation.jpg" /></a>
                                 <div class="card-body">
                                     <div class="small text-muted">April 11, 2024</div>
                                     <h2 class="card-title h4">Meal support initiative</h2>
@@ -166,7 +166,7 @@
                             </div>
                             <!-- Blog post-->
                             <div class="card mb-4">
-                                <a href="#!"><img class="card-img-top" src="assets/img/health-intiative-milele-vision-foundation.jpg" alt="..." /></a>
+                                <a href="#!"><img class="card-img-top lazyload slow-load" data-src="assets/img/health-intiative-milele-vision-foundation.jpg" alt="health lazy load" src="assets/img/blur-heath2-milele-vision-foundation.jpg" /></a>
                                 <div class="card-body">
                                     <div class="small text-muted">August 26, 2024</div>
                                     <h2 class="card-title h4">Community health awareness</h2>
@@ -232,6 +232,7 @@
                 </div>
             </div>
         </div>
+           
         <section class="how-to-give showcase bg-light py-5">
           <div class="container">
             <!-- Section Header -->
@@ -257,7 +258,7 @@
                 <div class="option-card p-3 shadow-sm bg-white rounded">
                   <h4 class="text-success">Contact Us on WhatsApp</h4>
                   <p>Reach out directly via WhatsApp to share what you have or to start a conversation with us.</p>
-                  <a href="https://wa.me/254713294813" class="btn btn-success" target="_blank">Message Us</a>
+                  <a href="https://wa.me/254713294812" class="btn btn-success" target="_blank">Message Us</a>
 
                 </div>
               </div>
@@ -270,7 +271,29 @@
               </div>
             </div>
         
-            
+            <!-- Donation Form -->
+            <div id="donation-form" class="row d-flex justify-content-center align-items-center">
+              <div class="col-md-8">
+                <div class="card p-4 shadow-sm">
+                  <h4 class="text-center mb-4 form-text">General Donation Form</h4>
+                  <form id="general-form">
+                    <div class="mb-3">
+                      <label for="name" class="form-label">Full Name</label>
+                      <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="mb-3">
+                      <label for="email" class="form-label">Email Address</label>
+                      <input type="email" class="form-control" id="email" name="_replyto" placeholder="Enter your email" required>
+                    </div>
+                    <div class="mb-3">
+                      <label for="message" class="form-label">Message</label>
+                      <textarea class="form-control" id="message" name="message" rows="4" placeholder="Tell us what you want to share or say"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                  </form>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
         
@@ -345,6 +368,7 @@
     <script src="js/lazyobserving.js"></script>t>
     <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
     <script src="js/newsletter.js"></script>
+    <script src="js/general-donations.js"></script>
 
       
     </body>

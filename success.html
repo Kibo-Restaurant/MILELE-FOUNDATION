@@ -48,7 +48,7 @@
     <div class="container-fluid container-xxl position-relative d-flex align-items-center justify-content-between">
     <div class="d-inline-block">
       <a class="navbar-brand" href="index.html">
-      <img class="lazyload"  src="assets/img/logo-rectangle-milele vision foundation.png.png" alt="logo-milele-vision-foundation" >
+      <img  class="lazyload slow-load" src="assets/img/blur-logo-rectangle-milele vision foundation.png.jpg"  data-src="assets/img/logo-rectangle-milele vision foundation.png.png" alt="logo-milele-vision-foundation" >
       </a>
     </div>
     <nav id="navmenu" class="navmenu">
@@ -120,7 +120,7 @@
                 <div class="col-lg-8">
                     <!-- Featured blog post-->
                     <div class="card mb-4">
-                        <a href="#"><img class="card-img-top" src="assets/img/abdi-milele-vision-foundation.jpg" alt="..." /></a>
+                        <a href="#"><img class="card-img-top lazyload slow-load " data-src="assets/img/abdi-milele-vision-foundation.jpg" alt="abdi the victor!" src="assets/img/blur-abdi-milele-vision-foundation.jpg"/></a>
                         <div class="card-body">
                             <div class="small text-muted">January 1, 2023</div>
                             <h2 class="card-title">The story of Abdi</h2>
@@ -133,7 +133,7 @@
                         <div class="col-lg-6">
                             <!-- Blog post-->
                             <div class="card mb-4">
-                                <a href="#!"><img class="card-img-top" src="assets/img/talents-milele-vision-foundation.jpg" alt="..." /></a>
+                                <a href="#!"><img class="card-img-top lazyload slow-load"  data-src="assets/img/talents-milele-vision-foundation.jpg" alt="football talents in mombasa" src="assets/img/blur-talents-milele-vision-foundation.jpg"/></a>
                                 <div class="card-body">
                                     <div class="small text-muted">March 1, 2024</div>
                                     <h2 class="card-title h4">Empowered. Active. Resilient.</h2>
@@ -143,7 +143,7 @@
                             </div>
                             <!-- Blog post-->
                             <div class="card mb-4">
-                                <a href="#!"><img class="card-img-top" src="assets/img/mum-with-cutekid-milele-vision-foundation.jpg" alt="..." /></a>
+                                <a href="#!"><img class="card-img-top lazyload slow-load"  data-src="assets/img/mum-with-cutekid-milele-vision-foundation.jpg" alt="mother daugher image" src="assets/img/blur-mum-with-cutekid-milele-vision-foundation.jpg"/></a>
                                 <div class="card-body">
                                     <div class="small text-muted">June 13, 2024</div>
                                     <h2 class="card-title h4">A Mother's Love</h2>
@@ -232,6 +232,7 @@
                 </div>
             </div>
         </div>
+           
         <section class="how-to-give showcase bg-light py-5">
           <div class="container">
             <!-- Section Header -->
@@ -257,7 +258,7 @@
                 <div class="option-card p-3 shadow-sm bg-white rounded">
                   <h4 class="text-success">Contact Us on WhatsApp</h4>
                   <p>Reach out directly via WhatsApp to share what you have or to start a conversation with us.</p>
-                  <a href="https://wa.me/254713294813" class="btn btn-success" target="_blank">Message Us</a>
+                  <a href="https://wa.me/254713294812" class="btn btn-success" target="_blank">Message Us</a>
 
                 </div>
               </div>
@@ -275,7 +276,7 @@
               <div class="col-md-8">
                 <div class="card p-4 shadow-sm">
                   <h4 class="text-center mb-4 form-text">General Donation Form</h4>
-                  <form action="https://formspree.io/f/example" method="POST">
+                  <form id="general-form">
                     <div class="mb-3">
                       <label for="name" class="form-label">Full Name</label>
                       <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
@@ -291,30 +292,6 @@
                     <button type="submit" class="btn btn-primary w-100">Send Message</button>
                   </form>
                 </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- Call to Action -->
-        <section class="call-to-action text-white text-center" id="signup">
-          <div class="container position-relative">
-            <div class="row justify-content-center">
-              <div class="col-xl-6">
-                <h2 class="mb-4">Want to stay updated? Sign up for our newsletter today</h2>
-                <form class="subscribe-container mb-2">
-                  <div class="d-flex flex-wrap align-items-center">
-                    <input 
-                      type="email" 
-                      name="email" 
-                      placeholder="Enter your email" 
-                      required 
-                      class="form-control me-2 mb-2 mb-md-0"
-                    >
-                    <button type="submit" class="btn custom-btn">
-                      Submit
-                    </button>
-                  </div>
-                </form>
               </div>
             </div>
           </div>
@@ -366,6 +343,7 @@
     <script src="js/lazyobserving.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
      <script src="js/newsletter.js"></script>
+     <script src="js/general-donations.js"></script>
 
 
       
