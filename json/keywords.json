@@ -172,4 +172,13 @@
       }
     ]
   }
+
+
+<div class="search-container" >
+              <input type="text" id="search-input" class="search-input form-control me-2" placeholder="Food search...">
+              <button id="search-btn" class="search-btn">
+                <i class="bi bi-search"></i>
+              </button>
+              <button id="close-btn" class="close-btn">&times;</button>
+            </div> 
   
