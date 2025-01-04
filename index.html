@@ -90,9 +90,17 @@
           <li><a href="essentials.html#volunteer-form">Volunteer</a></li>
           <li><a href="donations.html">Donate</a></li>
           <form class="d-flex search-wrp mt-1">
-            <input class="form-control me-2" type="search" placeholder="Search page..." aria-label="Search">
+            <input
+              class="form-control me-2"
+              id="search-box"
+              name="query"
+              type="search"
+              placeholder="Search page..."
+              aria-label="Search"
+              required
+            />
             <button id="search-btn" type="submit" class="btn btn-outline-success">
-             
+              <i class="bi bi-search"></i>
             </button>
           </form>
         </ul>
@@ -420,6 +428,7 @@
   <script src="js/newsletter.js"></script>
   <script src="js/scripts.js"></script>
   <script src="js/lazy-loading.js"></script>
+  <script src="js/search.js"></script>
 
 
 

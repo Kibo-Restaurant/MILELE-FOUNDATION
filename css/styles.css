@@ -19148,8 +19148,15 @@ color:#000000;
   background-color: #6117e7;
 }
 
+/*search button */
+.bi-search{
+  color:#007bff;
+}
 
 
+.bi-search:hover{
+  color:#fdcf35;
+}
 
 
 
