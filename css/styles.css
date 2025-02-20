@@ -19229,6 +19229,33 @@ color:#000000;
 }
 
 
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(97, 23, 231, 0.8); /* #6117e7 in rgba with 80% opacity */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  z-index: 9999;
+  pointer-events: all;
+  color: #f9f9f9; /* Text color for fallback if needed */
+}
+
+.overlay-content {
+  background: #f9f9f9; /* Light background for the message box */
+  color: #6117e7;       /* Purple text for contrast */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
 
 
 
